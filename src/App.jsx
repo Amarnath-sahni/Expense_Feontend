@@ -1,14 +1,15 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './Components/common/Navbar';
+import Dashboard from './Components/dashboard/Dashboard';
 
-import './App.css'
-import ExpenseIcon from './ExpenseIcon.jsx'
-
-function App() {
-
+export default function App() {
   return (
-    <div>
-       <ExpenseIcon/>
-    </div>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </>
+  );
 }
-
-export default App
