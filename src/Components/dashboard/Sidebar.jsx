@@ -15,7 +15,7 @@ const links = [
 
   return (
     <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="h-full p-4 rounded-xl card-sketch">
-      <div className="flex flex-col items-center gap-4 border-2 border-blue-400 rounded-xl shadow-lg p-4">
+      <div className="flex flex-col items-center gap-4 rounded-xl shadow-lg p-2">
         <div className="w-24 h-24 rounded-full bg-slate-800 flex items-center justify-center">
           <User className="w-12 h-12 text-slate-300" />
         </div>
@@ -43,6 +43,8 @@ const links = [
           ))}
         </div>
       </div>
+<button>edit</button>
+
     </motion.div>
   )
 }
