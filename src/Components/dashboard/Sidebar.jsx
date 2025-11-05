@@ -43,7 +43,7 @@ const links = [
           ))}
         </div>
       </div>
-<button>edit</button>
+    <button className='bg-transparent hover:bg-blue-500  text-slate-400 font-semibold hover:text-white py-2 px-8 border border-blue-500 hover:border-transparent rounded'>edit</button>
 
     </motion.div>
   )
