@@ -2,7 +2,7 @@
 
 // // Use env variable or hard-coded key
 // const ai = new GoogleGenAI({
-//   apiKey:'AIzaSyBe3v5-uIP3IbMquEuFetHMHDzkK6XYQ7c'
+//   apiKey:'AIzaSyBe3v5-uIP3IbMquEuFetHMzkK6XYQ7c'
 // });
 
 // async function runChat(prompt) {
